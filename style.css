@@ -41,6 +41,36 @@ h1.main-text {
     font-weight: 800; /* extra bold */
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800; /* extra bold */
+
+    display: flex;
+    justify-content: center;
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    /* padding: 16px; */
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 200px;
+}
+
 ul {
     display: flex;
     list-style: none;
